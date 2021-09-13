@@ -24,8 +24,8 @@ const showProducts = (products) => {
        <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-secondary text-white">add to cart</button>     
        <button onclick="productDetails(${product.id})" id="details-btn" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Details</button></div>
        <div class="d-flex justify-content-around"> 
-       <p class="text-warning bg-secondary p-2 rounded">Rating: <span class="fw-bold">${product.rating.rate}</span></p>
-       <p class="text-warning bg-secondary p-2 rounded">Total review: <span class="fw-bold">${product.rating.count}</span></p>
+       <p class="text-white bg-secondary p-2 rounded">Rating: <span class="fw-bold">${product.rating.rate} <i class="far fa-smile"></i></span></p>
+       <p class="text-white bg-primary p-2 rounded">Total review: <span class="fw-bold">${product.rating.count} <i class="fas fa-users"></i></span></p>
        </div>
      </div>
    </div>
