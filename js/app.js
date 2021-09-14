@@ -13,7 +13,7 @@ const showProducts = (products) => {
   for (const product of allProducts) {
     const image = product.image;
     const div = document.createElement("div");
-    div.classList.add("m-1");
+    div.classList.add("m-1", "card-design");
     div.innerHTML = `
     <div class="card h-100 border border-5 bg-light">
      <img src="${image}" class="card-img-top p-2" alt="..." width="100px" height="200px">

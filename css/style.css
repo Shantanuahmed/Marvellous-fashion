@@ -11,6 +11,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.card-design:hover{
+ transform: scale(1.05);
+ transition: transform 2s ;
+
+}
 /* price and total carts style */
 .cart {
   width: 350px;
